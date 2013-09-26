@@ -40,7 +40,10 @@
     <string name="template_not_present_error_title">错误</string>
     <string name="template_select">选择一个模板</string>
     <string name="template_confirm_dialog_title">删除吗？</string>
-    <plurals name="template_confirm_delete_conversation">&lt;item quantity="one"&gt;临时的将会被删除.&lt;/item&gt;&lt;item quantity="other"&gt;&lt;xliff:g id="number" example="15" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"&gt;%1$s&lt;/xliff:g&gt; 临时的将会被删除.&lt;/item&gt;</plurals>
+    <plurals name="template_confirm_delete_conversation">
+        <item quantity="one">一个临时的将会被删除.</item>
+        <item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> 临时文件被删除.</item>
+    </plurals>
     <string name="gestures_already_present">同样的姿态已与另一个模板相关联</string>
     <string name="select_template">选择模板</string>
     <string name="pref_title_mms_notification_vibrate_settings">振动设置</string>
@@ -93,7 +96,7 @@
     <string name="notification_single_title_privacy_mode">新邮件</string>
     <string name="notification_single_text_privacy_mode">1 封未读的邮件</string>
     <string name="notification_multiple_title_privacy_mode">新邮件</string>
-    <string name="notification_multiple_text_privacy_mode">&lt;xliff:g id="number" example="3" xmlns:xliff="urn:oasis:名称:tc:xliff:document:1.2"&gt;%1$s&lt;/xliff:g&gt; 未读邮件</string>
+    <string name="notification_multiple_text_privacy_mode"><xliff:g id="number" example="3">%1$s</xliff:g> 未读邮件</string>
     <string name="notification_ticker_privacy_mode">收到的新邮件</string>
     <string name="msg_sig_title">签名</string>
     <string name="msg_sig_summary">设置邮件的自定义签名</string>
@@ -109,7 +112,7 @@
     <string name="loading_recipients">加载联系人和组</string>
     <string name="no_recipients">没有可能收件人</string>
     <string name="pref_text_area_size_title">文本区域的大小</string>
-    <string name="pref_text_area_size_summary">设置文本区域为 &lt;xliff:g id="lines" xmlns:xliff="urn:oasis:名称:tc:xliff:文件:1.2"&gt;%1$s&lt;/xliff:g&gt; 行</string>
+    <string name="pref_text_area_size_summary">设置文本区域为 <xliff:g id="lines">%1$s</xliff:g> lines</string>
     <string name="pref_mms_ua_default_android">默认 Android</string>
     <string name="pref_mms_ua_nokia_n95">诺基亚 N95</string>
     <string name="pref_mms_ua_iphone_3_0">iPhone (3.0)</string>
@@ -125,7 +128,7 @@
     <string name="pref_title_sms_multi_part_size">多部分短信大小</string>
     <string name="pref_summary_sms_multi_part_mms">将作为彩信发送文本消息超过 160 个字符</string>
     <string name="pref_summary_sms_multi_part">将作为多部分短信发送文本消息超过 160 个字符</string>
-    <string name="pref_summary_sms_multi_part_mms_size">文本消息将转换为彩信 &lt;xliff:g id="seg" xmlns:xliff="urn:oasis:名称:tc:xliff:文档:1.2"&gt;%1$s&lt;/xliff:g&gt; 段</string>
+    <string name="pref_summary_sms_multi_part_mms_size">文本消息将转换为彩信 <xliff:g id="seg">%1$s</xliff:g> segments</string>
     <string name="pref_title_sms_split">拆分短信</string>
     <string name="pref_summary_sms_split">文本消息将拆分到 160 字符的消息</string>
     <string name="blacklist_title">黑名单</string>
@@ -135,7 +138,7 @@
     <string name="blacklist_notification_private_number">被阻止的消息从一个私人号码</string>
     <string name="blacklist_notification_list_private">私人</string>
     <string name="blacklist_notification_unknown_number">阻止来自未知号码 %s 的消息</string>
-    <string name="blacklist_notification_multiple">&lt;xliff:g id="count" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"&gt;%d&lt;/xliff:g&gt; 消息被拦截</string>
+    <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> 消息被拦截</string>
     <string name="unblock_number">取消阻止</string>
     <string name="add_to_blacklist">添加到黑名单中</string>
     <string name="add_to_blacklist_message">今后来自 %s 的邮件将被阻止</string>
