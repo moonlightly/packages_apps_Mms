@@ -2,8 +2,23 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="menu_mark_all_read">标记所有为已读</string>
     <string name="cannot_find_contact">无法连接您选定的联系人。</string>
-    <string-array name="prefEntries_vibrateWhen">&lt;item&gt;总是&lt;/item&gt;&lt;item&gt;仅静音时&lt;/item&gt;&lt;item&gt;从不&lt;/item&gt;</string-array>
-    <string-array translatable="false" name="prefValues_vibrateWhen">&lt;item&gt;总是&lt;/item&gt;&lt;item&gt;静音&lt;/item&gt;&lt;item&gt;从不&lt;/item&gt;</string-array>
+    <!-- The vibrate notification modes -->
+    <string-array name="prefEntries_vibrateWhen">
+        <!-- Always -->
+        <item>总是</item>
+        <!-- Only when the phone is in Silent mode -->
+        <item>仅当安静时</item>
+        <!-- Never -->
+        <item>从不</item>
+    </string-array>
+
+    <!-- The vibrateWhen values -->
+    <string-array translatable="false" name="prefValues_vibrateWhen">
+        <item>总是</item>
+        <item>安静</item>
+        <item>从不</item>
+    </string-array>
+    <!-- Setting item for folder to save MMS Attachments to -->
     <string name="pref_title_save_location">文件夹保存附件</string>
     <string name="pref_title_save_location_summary">指定要保存附件的文件夹</string>
     <string name="attach_contact_info">联系信息</string>
